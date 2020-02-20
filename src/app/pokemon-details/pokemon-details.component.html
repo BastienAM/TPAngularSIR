@@ -1,0 +1,14 @@
+<div>
+    <h1>{{pokemon.name}}</h1>
+    <div>id : {{pokemon.id}}</div>
+    <div>height : {{pokemon.height}}</div>
+    <div>weight : {{pokemon.weight}}</div>
+    <div>types :
+        <ul><li *ngFor="let type of pokemon.type">{{type}}</li></ul>
+    </div>
+    <div>moves :
+        <ul><li *ngFor="let move of pokemon.move">{{move}}</li></ul>
+    </div>
+</div>
+
+
